@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="232px" height="213px" viewBox="0 0 232 213" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="70.5866894%" y1="-9.40424661%" x2="44.4895362%" y2="82.5952773%" id="linearGradient-1">
+            <stop stop-color="#8F68AA" offset="0%"></stop>
+            <stop stop-color="#23034F" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Plainthing-Website" transform="translate(-1056.000000, -913.000000)" fill="url(#linearGradient-1)">
+            <g id="what-we-actually" transform="translate(-126.000000, 815.000000)">
+                <circle id="Oval" cx="1298" cy="214" r="116"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
