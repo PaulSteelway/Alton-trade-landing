@@ -26,12 +26,12 @@
 }
 :root {
   --white: #ffffff;
-  --semiwhite: #e6e6e2;
+  --semiwhite: #fff;
   --dark: #0A0F1B;
-  --semidark: #481760;
+  --semidark: rgba(230, 33, 89, 0.4);
   --orange: #E62159;
-  --transparantone: rgba(75, 25, 104, 0.3);
-  --transparanttwo: rgba(75, 25, 104, 0.8);
+  --transparantone: rgba(230, 33, 89, 0.3);
+  --transparanttwo: rgba(230, 33, 89, 0.4);
   --transparanttree: rgba(226, 91, 15, 0.5);
 }
 * {
@@ -336,7 +336,7 @@ p.detail {
   z-index: 9999;
 }
 .logwrap {
-  width: 100px;
+  width: 135px;
 }
 .logwrap img {
   width: 100%;
@@ -667,7 +667,7 @@ p.detail {
   display: inline-table;
 }
 .tab__heading h2 {
-  font-size: 15px;
+  font-size: 18px;
 }
 .tab__content {
   background: var(--transparantone);
@@ -678,7 +678,8 @@ p.detail {
 .tab__content p {
   margin: 20px;
   color: var(--semiwhite);
-  opacity: 0.5;
+  opacity: 0.8;
+  font-size: 16px;
 }
 #servicesection {
   padding: 0 0 50px;

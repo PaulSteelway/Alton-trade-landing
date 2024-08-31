@@ -157,10 +157,10 @@ const nerxinit = (function () {
             this.energy = Math.random() * 100;
             this.radius = Math.random();
             this.siblings = [];
-            this.brightness = 0;
+            this.brightness = 1;
         }
         Node.prototype.drawNode = function () {
-            var color = "rgba(150, 41, 181, " + this.brightness + ")";
+            var color = "rgba(230, 33, 89, " + this.brightness + ")";
             ctx.beginPath();
             ctx.arc(this.x, this.y, 2 * this.radius + 2 * this.siblings.length / SIBLINGS_LIMIT, 0, circ);
             ctx.fillStyle = color;
@@ -168,7 +168,8 @@ const nerxinit = (function () {
         };
         Node.prototype.drawConnections = function () {
             for (var i = 0; i < this.siblings.length; i++) {
-                var color = "rgba(150, 41, 181, " + this.brightness + ")";
+                var color = "rgba(230, 33, 89, " + this.brightness + ")";
+                // var color = "#E62159";
                 ctx.beginPath();
                 ctx.moveTo(this.x, this.y);
                 ctx.lineTo(this.siblings[i].x, this.siblings[i].y);
