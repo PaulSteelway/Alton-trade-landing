@@ -472,25 +472,28 @@ p.detail {
 }
 .heroimg img:first-child {
   width: 40%;
+  top:25px;
+  left:-25px;
   position: absolute;
   transform: translatey(0px);
   -webkit-animation: float 9s ease-in-out infinite;
   animation: float 9s ease-in-out infinite;
 }
 .heroimg img:nth-last-child(3) {
-  right: 50px;
-  top: 100px;
+  right: 100px;
+  top: 75px;
   width: 50%;
   max-width: 250px;
   position: absolute;
   transform: translatey(0px);
+  rotate:20deg;
   -webkit-animation: float 11s ease-in-out infinite;
   animation: float 11s ease-in-out infinite;
 }
 .heroimg img:nth-last-child(2) {
-  left: 40px;
+  left: 0;
   width: 60%;
-  top: 320px;
+  top: 250px;
   position: absolute;
   transform: translatey(0px);
   -webkit-animation: float 15s ease-in-out infinite;
@@ -498,8 +501,8 @@ p.detail {
 }
 .heroimg img:last-child {
   width: 40%;
-  right: 0;
-  top: 300px;
+  right: 50;
+  top: 235px;
   position: absolute;
   transform: translatey(0px);
   -webkit-animation: float 6s ease-in-out infinite;
