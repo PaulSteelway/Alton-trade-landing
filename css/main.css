@@ -706,7 +706,7 @@ p.detail {
 }
 .itemservice__deskrip {
   color: var(--semiwhite);
-  opacity: 0.5;
+  opacity: 0.75;
 }
 .wrapgeap__title {
   font-size: 20px;
